@@ -1,0 +1,96 @@
+.stat-box{
+    
+    width: 20%;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+   display: flex;
+   
+    flex-direction: column;
+}
+.stat-box:nth-child(1){
+    background-color: rgba(213, 238, 216, 0.88);
+}
+.stat-box:nth-child(2){
+    background-color: rgba(243, 218, 218, 0.6);
+}
+.stat-box:nth-child(3){
+    background-color: rgba(232, 203, 203, 0.719);
+}
+.stat-box:nth-child(4){
+    background-color: rgba(179, 202, 223, 0.444);
+}
+.Stats{
+ margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.stat-icon-h{
+    width: 100%;
+    aspect-ratio: 16/4;   
+}
+.stat-h{
+    display: flex;
+    padding-left: 10%;
+    flex-direction: column;
+}
+.stat-name{
+font-weight: 500;
+font-size: small;
+    width: 100%;
+}
+.stat-number{
+    font-size: x-large;
+    font-weight: 700;
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+@media screen and (max-width:880px) {
+    .stat-number{
+        font-size: large;
+    }
+    .stat-name{
+        font-size: x-small;
+    }
+    .stat-box{
+    
+        width: 23%;
+       
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+    .stat-box{
+        width: 48%;
+        /* margin: 10px; */
+        margin-bottom: 10px;
+    }
+    .Stats{
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 500px){
+    .Stats{
+        padding: 0 10px 0 10px;
+    }
+}
+
+.icon-h{
+    height: 15px;
+    width: 15px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+.stat-icon{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+.stat-icon-h{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}

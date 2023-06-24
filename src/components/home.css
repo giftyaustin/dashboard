@@ -5,10 +5,10 @@
 }
 .board-home{
     display:flex;
-    width: 41vw;
+    width: 41%;
     background-color: black;
     color:white;
-    height: 100h;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     font-size: 72px;
@@ -24,7 +24,7 @@
 .login-h{
     background-color: #F5F5F5;
     display: flex;
-    width: 60vw;
+    width: 60%;
     justify-content: center;
     align-items: center;
     flex-direction:column ;
