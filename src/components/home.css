@@ -18,6 +18,8 @@
 .foot-item-h{
     position: absolute;
     bottom: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 .home-h{
     width: 100vw;

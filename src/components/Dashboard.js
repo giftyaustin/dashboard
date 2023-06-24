@@ -56,8 +56,9 @@ const Dashboard = () => {
            
             return(<div className='menu-item-h'><img src={require(`../images/${menuItems[i]}.png`)} alt="" className='menu-img'/><div className="menu-item">{c}</div></div>)
           })}
-        </div><div className="foot-item-h"><div className="foot-item menu-item">Help</div>
-        <div className="foot-item menu-item">Contact us</div></div></div>
+        </div></div>
+        <div className="foot-item-h"><div className="foot-item menu-item">Help</div>
+        <div className="foot-item menu-item">Contact us</div></div>
       </div>
       <div className="right-h" ref={rightRef}>
         <div className="search-h">
