@@ -16,11 +16,18 @@
     font-weight: 700;
     
 }
+.foot-item-h{
+    position: absolute;
+    bottom: 20px;
+}
 .home-h{
     width: 100vw;
     height: 100vh;
     display: flex;
   
+}
+.foot-item{
+    margin-bottom: 10px;
 }
 .login-h{
     background-color: #F5F5F5;
